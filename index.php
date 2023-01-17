@@ -19,6 +19,8 @@ $database = new Database();
 
 $database->select('usr', '*',null,null,null,null);
 echo "SQL result is :";
+echo "<pre>";
 print_r($database->getResult());
+echo "</pre>";
 
 ?>

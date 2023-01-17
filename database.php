@@ -106,6 +106,7 @@ class Database{
             if($order!=null){
                 $sql .= " ORDER BY $order";
             }
+            
             if($limit!=null){
                 $sql .= " limit 0 , $limit";
             }
